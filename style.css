@@ -5,6 +5,31 @@
 body{
     font-family: 'Nunito', sans-serif
 }
+.menu-area {
+    overflow: hidden;
+    height: 40px;
+    background-color: #000;
+}
+.menu-area strong{
+    padding: 12px;
+    margin-left: 9%;
+    float: left; 
+    color: rgba(252, 198, 82, 0.986);  
+}
+.menu-area ul{
+    padding: 11px;
+    margin-right: 8%;
+    float: right;
+}
+.menu-area li{
+    list-style-type: none;
+    display: inline; 
+}
+.menu-area ul li a{
+    color: #fff;
+    text-decoration: none; 
+    padding: 10px ;
+}
 .top-area{
     display: flex;
 }
@@ -41,35 +66,35 @@ body{
     padding: 6% 0  10% 0;    
 }
 /* ------ about area------ */
-.middle-area{
+.about-area{
     display: flex;
     background-image: url(image/7.png);
     background-size: cover;
 }
-.middle-area .about{
+.about-area .about{
     width: 50%;
     padding: 3% 3% 3% 0;
 }
-.middle-area .about img{
+.about-area .about img{
     width: 70%;
     padding: 5% 0 0 25%;
     
 }
-.middle-area .middle-right{
+.about-area .middle-right{
     width: 65%;
      padding: 10% 0 0 10%;
      line-height: 25px;  
     
 }
-.middle-area .middle-right p{
+.about-area .middle-right p{
     margin: 15% 0 25% 0;
     text-align: justify;  
     
 }
-.middle-area .middle-right a{
+.about-area .middle-right a{
     background-image: linear-gradient(to right, rgb(0, 38, 255) ,rgb(0, 217, 255));  
     border-radius: 50px;
-    padding: 15px 25px;
+    padding: 12px 35px;
     text-decoration: none;
     color:white;
 }
@@ -87,7 +112,7 @@ body{
 .recipies{
     display: flex;
     justify-content: space-around;
-    margin: 0 5% 0 5%; 
+    margin: 0 5% 10% 5%; 
     line-height: 25px;
 }
 .recipies .recipies-title{
@@ -103,4 +128,22 @@ body{
 .recipies .recipies-title h3{
     width: 100%;
     margin: 20px 0 10px 0;
+}
+/* ---------footer area------------ */
+.footer{
+    color: rgb(110, 100, 100);
+    font-weight: 700;
+    background-color: black;
+    text-align: center;
+    height: 110px;
+    padding-top: 20px;
+}
+.footer strong{
+    color: rgba(253, 180, 23, 0.986);
+}  
+.footer p{
+    font-weight: 300;
+    font-size: small;
+    color: white;
+    padding-top: 20px;
 }
